@@ -74,8 +74,9 @@ window.addOneHome = addOneHome
 window.addTwoHome = addTwoHome
 window.addThreeHome = addThreeHome
 window.addOneGuest = addOneGuest
-window.addTwoGuest - addTwoGuest
+window.addTwoGuest = addTwoGuest
 window.addThreeGuest = addThreeGuest
+window,newGame = newGame
 // let timeInSeconds = 900;
 // const timerDisplay = document.getElementById('timerDisplay');
 
