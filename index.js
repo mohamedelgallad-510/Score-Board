@@ -1,10 +1,10 @@
-let homeScoreText = document.getElementById("home-score")
-let guestScoreText = document.getElementById("guest-score")
+var homeScoreText = document.getElementById("home-score")
+var guestScoreText = document.getElementById("guest-score")
 
 // console.log(homeScoreText)
 
-let homeScore = 0
-let guestScore = 0
+var homeScore = 0
+var guestScore = 0
 
 function determineWinner() {
     if (homeScore > guestScore) {
