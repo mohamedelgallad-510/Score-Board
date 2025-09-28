@@ -68,6 +68,14 @@ function newGame() {
     guestScoreText.textContent = guestScore
     determineWinner()
 }
+
+window.determineWinner = determineWinner
+window.addOneHome = addOneHome
+window.addTwoHome = addTwoHome
+window.addThreeHome = addThreeHome
+window.addOneGuest = addOneGuest
+window.addTwoGuest - addTwoGuest
+window.addThreeGuest = addThreeGuest
 // let timeInSeconds = 900;
 // const timerDisplay = document.getElementById('timerDisplay');
 
