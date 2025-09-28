@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    color: #EEEEEE;
+    width: 100px;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    letter-spacing: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.buttons {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                            
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0%;
+}
+
+#newGame-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                            
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 3px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#newGame-div {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.winner {
+    font-size: 120px;
+}
+
+.loser {
+    font-size: 50px;
+}
