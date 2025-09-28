@@ -69,6 +69,10 @@ function newGame() {
     determineWinner()
 }
 
+window.increment = increment
+window.save = save
+window.reset = reset
+
 // let timeInSeconds = 900;
 // const timerDisplay = document.getElementById('timerDisplay');
 
